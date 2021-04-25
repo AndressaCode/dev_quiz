@@ -1,18 +1,12 @@
 import 'package:DevQuiz/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
+class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'DevQuiz',
-      debugShowCheckedModeBanner: false,
+      title: "DevQuiz",
       home: SplashPage(),
     );
   }
 }
-
